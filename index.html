@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MCA Robotics Club">
+
+    <title>MCA Robotics Club</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            color-scheme: dark;
+            scroll-behavior: smooth;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+        }
+
+        body {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            padding: 2rem 0 2rem 0;
+            margin-left: 1rem;
+        }
+
+        nav>ul {
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+            padding-left: 0.5rem;
+        }
+
+        nav li {
+            text-align: center;
+            color: white;
+            padding: 0.5rem;
+            transition: background-color 400ms;
+        }
+
+        nav li:hover {
+            background-color: white;
+        }
+
+
+        nav li>a {
+            text-decoration: none;
+            color: white;
+            transition: color 400ms;
+        }
+
+        nav li:hover>a {
+            color: black;
+        }
+
+        #achievements p:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        /* Accessibility stuff */
+        .skip-to-main-content-link {
+            position: absolute;
+            left: -9999px;
+            z-index: 999;
+            padding: 1em;
+            background-color: black;
+            color: white;
+            opacity: 0;
+        }
+
+        .skip-to-main-content-link:focus {
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Accessibility link -->
+    <a href="#main" class="skip-to-main-content-link">Skip to main content</a>
+
+    <main id="main">
+<center>
+<br>
+            <h1>
+                MCA Robotics Club coming soon!
+            </h1>
+            <img src="mca_robotics_club_logo.png" width="20%">
+</center>
+    </main>
+</body>
+
+</html>
