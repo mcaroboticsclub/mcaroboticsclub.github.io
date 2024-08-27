@@ -1,2 +1,1 @@
-# MCA Robotics Club Website
-## https://mcaroboticsclub.github.io/
+[mcaroboticsclub.github.io](https://mcaroboticsclub.github.io)
