@@ -5,3 +5,19 @@
 .social-icons>img {
     width: 100%;
 }
+
+.ftco-footer .coach-contact {
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.ftco-footer .coach-contact a {
+  color: #ffc800 !important;
+  text-decoration: underline;
+}
+
+.ftco-footer .coach-contact a:hover {
+  color: #fff !important;
+}
